@@ -12,7 +12,7 @@ yield_data here means that only a mini-batch data is yield from a dataset iterat
 python SequenceLabelingBRNNCRF.py -T eval --model_dir model_path --eval_filepath evaluation_filepath --annotation_scheme CoNLL
 
 # Prediction
-python SequenceLabelingBRNNCRF.py -T eval --model_dir model_path --test_filepath test_filepath
+python SequenceLabelingBRNNCRF.py -T predict --model_dir model_path --test_filepath test_filepath
 In test_filepath, each line is a sequence of tokens. 
 
 # Interactive prediction
